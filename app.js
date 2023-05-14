@@ -45,8 +45,6 @@ function hasDuplicate(arr){
 //Write a function called vowelCount which accepts a string and returns a map where the keys are numbers 
 //and the values are the count of the vowels in the string.
 
-vowelCount('awesome') // Map { 'a' => 1, 'e' => 2, 'o' => 1 }
-vowelCount('Colt') // Map { 'o' => 1 }
 
 function isVowel(char){
   return "aeiou".includes(char);
